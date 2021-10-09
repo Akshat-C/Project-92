@@ -10,4 +10,7 @@ function user_value()
     localStorage.setItem("player1", p1n);
     localStorage.setItem("player2", p2n);
     window.location = "game.html";
+
+    name2len = p2n.length;
+    localStorage.setItem("player2len", name2len);
 }

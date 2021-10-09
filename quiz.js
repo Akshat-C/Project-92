@@ -1,5 +1,6 @@
 var p1score = 0;
 var p2score = 0;
+name2len = localStorage.getItem("player2len");
 
 function logout()
 {
@@ -22,6 +23,36 @@ function pname()
     document.getElementById("aturn").innerHTML = "Answer Turn- " + player2name;
     document.getElementById("qturn").style.width = 1000;
     document.getElementById("aturn").style.width = 1000;
+
+    if (name2len == 1)
+    {
+        document.getElementById("p2n").style.marginLeft = 1230;
+    } else if (name2len == 2)
+    {
+        document.getElementById("p2n").style.marginLeft = 1220;
+    } else if (name2len == 3)
+    {
+        document.getElementById("p2n").style.marginLeft = 1190;
+    } else if (name2len == 4)
+    {
+        document.getElementById("p2n").style.marginLeft = 1150;
+    } else if (name2len == 5)
+    {
+        document.getElementById("p2n").style.marginLeft = 1100;
+    } else if (name2len == 6)
+    {
+        document.getElementById("p2n").style.marginLeft = 1090;
+    } else if (name2len == 7)
+    {
+        document.getElementById("p2n").style.marginLeft = 1070;
+    }
+    else if (name2len == 8)
+    {
+        document.getElementById("p2n").style.marginLeft = 1050;
+    } else if (name2len == 9)
+    {
+        document.getElementById("p2n").style.marginLeft = 1030;
+    }
 }
 
 function send()
