@@ -1,0 +1,61 @@
+#back_arrow {
+    font-size: 42px; 
+    padding-left: 13px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    color: magenta;
+    margin-left: -5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin-top: -62px;
+    margin-left: 70px;
+    font-size: 32px;
+}
+
+.line {
+    width: 120px;
+    height: 5px;
+    background: rgb(51,44,99);
+    background: linear-gradient(90deg, rgba(51,44,99,1) 30%, rgba(0,189,255,1) 50%, rgba(255,0,189,1) 70%);
+    border-radius: 10px;
+    margin-top: -5px;
+}
+
+.body_back {
+    background-image: url("Math.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 42px;
+    color:dodgerblue;
+    z-index: 99;
+    background-color: white;
+    width: 225px;
+    height: 55px;
+    margin-top: 30px;
+}
+
+#howto {
+    width: 550px;
+    padding-left: 10px;
+    padding-right: 4px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    text-align: left;
+    height: 235px;
+    background-color:lightskyblue;
+}
+
+.list {
+    font-size: 18px;
+    color:magenta;
+}
+

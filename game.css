@@ -1,0 +1,198 @@
+.body_back {
+    background-image: url("Math.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+#cal {
+    font-size: 42px; 
+    background-color:turquoise; 
+    padding-left: 13px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    color:magenta;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#log_out {
+    font-size: 42px; 
+    padding-left: 13px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:magenta;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+}
+
+#log {
+    margin-left: 90px;
+    margin-top: -65px;
+}
+
+h2 {
+    margin-top: -62px;
+    margin-left: 120px;
+    font-size: 36px;
+}
+
+#nav_header {
+    height: 75px;
+}
+
+h1 {
+    font-size: 42px;
+    color:dodgerblue;
+    z-index: 99;
+    background-color: white;
+    width: 180px;
+    height: 44px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#heading {
+    font-size: 42px;
+    color:dodgerblue;
+    z-index: 99;
+    background-color: white;
+    width: 250px;
+    height: 44px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.line {
+    width: 120px;
+    height: 5px;
+    background: rgb(51,44,99);
+    background: linear-gradient(90deg, rgba(51,44,99,1) 30%, rgba(0,189,255,1) 50%, rgba(255,0,189,1) 70%);
+    border-radius: 10px;
+    margin-top: -2px;
+}
+
+#line {
+    width: 130px;
+    height: 5px;
+    background: rgb(51,44,99);
+    background: linear-gradient(90deg, rgba(51,44,99,1) 30%, rgba(0,189,255,1) 50%, rgba(255,0,189,1) 70%);
+    border-radius: 10px;
+    margin-top: -2px;
+    margin-left: 625px;
+}
+
+#info {
+    width: 450px;
+    background-color: white;
+    height: 25px;
+    color: magenta;
+    margin-bottom: 50px;
+}
+
+.login_div {
+    width: 400px;
+    border-radius: 0px;
+    border:grey groove 5px;
+    position:relative; 
+    background-color:lightskyblue;
+    padding-bottom: 10px;
+    color:magenta;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+#qturn, #aturn {
+    font-size: 32px;
+    color:dodgerblue;
+    z-index: 99;
+    font-weight: bold;
+    margin-top: -30px;
+    color: magenta;
+} 
+
+#aturn {
+    margin-top: 0px;
+    width: 220px;
+    height: 35px;
+}
+
+
+.form-control {
+    width: 300px;
+    margin-left: 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.btn {
+    font-size: 18px;
+    color:white;
+    width: 150px;
+    border-radius: 20px;
+}
+
+#output {
+    width: 500px;
+    background-color: white;
+    height: 50px;
+    border: grey solid 3px;
+    border-radius: 15px;
+}
+
+#num1 {
+    margin-left: -5px;
+}
+
+#num2 {
+    margin-left: -5px;
+}
+
+#input_div {
+    width: 425px;
+    border-radius: 0px;
+    border: grey solid 3px;
+    position:relative; 
+    background-color:lightskyblue;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color:magenta;
+}
+
+#output
+{
+background: white;
+border-radius: 10px;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+#ans_input {
+	width: 300px;
+	display: inline-block;
+    margin-top: -35px;
+    margin-left: 60px;
+}
+
+#p1s {
+    margin-top: -100px;
+}
+
+h4, span {
+	display: inline-block;
+	font-size: 24px;
+    font-weight: bold;
+    color:magenta;
+    margin-left: 10px;
+}
+

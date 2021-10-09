@@ -1,0 +1,65 @@
+<html>
+
+<head>
+<title>Guess The Word</title>
+        
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+<link rel="stylesheet" type="text/css" href="game.css">
+<script src="quiz.js"></script>
+        
+</head>
+
+<body class="body_back" onload="pname()">
+
+<nav class="navbar navbar-dark bg-primary" style="top: 0;" id="nav_header">
+
+<p><i class="fa fa-sign-out" aria-hidden="true" id="log_out" onclick="logout()"></i><h2 id="log">Logout</h2></p>
+        
+</nav>
+
+<center>
+
+<h1 id="heading">Maths Game</h1>
+<hr id="line">
+
+</center>
+
+<h4 id="p1n"></h4><span id="p1s"></span>
+<br>
+<h4 id="p2n"></h4><span id="p2s"></span>
+
+<center>
+
+<div class="container">
+
+<h3 id="qturn"></h3>
+<h3 id="aturn"></h3>
+
+</div>
+
+<div id="output"></div>
+<br>
+<br>
+
+<div id="input_div">
+
+<p>Number 1: </p>
+<input type="number" placeholder="Enter Your 1st Number Here" class="form-control" id="num1">
+<br>
+<p id="labelnum">Number 2: </p>
+<input type="number" placeholder="Enter Your 2nd Number Here" class="form-control" id="num2">
+<br>
+<button onclick="send()" class="btn btn-primary">Send</button>
+
+</div>
+
+</center>
+
+</body>
+
+</html>
