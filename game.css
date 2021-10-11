@@ -166,7 +166,8 @@ p {
     background-color:lightskyblue;
     padding-bottom: 20px;
     padding-top: 20px;
-    color:rgba(255,0,189,1);;
+    color:rgba(255,0,189,1);
+    height: 270px
 }
 
 #output
@@ -209,6 +210,10 @@ h4, span {
 .note {
     font-size: 16px;
     font-weight: bold;
+}
+
+.btn-warning, .btn-success {
+    margin-top: 15px;
 }
 
 

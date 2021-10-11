@@ -55,6 +55,7 @@ function pname()
     }
 }
 
+
 function send()
 {
     numb1 = document.getElementById("num1").value;
@@ -78,8 +79,7 @@ var aturn = "pl2";
 
 function check()
 {
-   ans_get = document.getElementById("ans_input").value;
-   ans = ans_get.toLowerCase();
+   ans = document.getElementById("ans_input").value;
    console.log(ans);
 
    if (ans == product)
@@ -117,4 +117,9 @@ function check()
 
    document.getElementById("output").innerHTML = "";
    document.getElementById("output").style.height = 50;
+   document.getElementById("num1");
+   document.getElementById("num2");
+   num1.value = " ";
+   num2.value = " ";
+
 }
